@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './smokeCounter.css'
 
 class SmokeCounter extends Component {
 
@@ -45,21 +46,22 @@ class SmokeCounter extends Component {
     
       render() {
           if (this.state.count === 10) {
-              return <div>
-                  <p>Vse gg</p>
-                  <button onClick={this.handleReset}>Reset</button>
+              return <div className="question">
+                  <p className="title">Сегодня все, гг. Покуришь завтра.</p>
+                  <button className="reset-btn" onClick={this.handleReset}>Уже завтра</button>
               </div>
           } else if (this.state.count === -1) {
-                return <div>
-                  <p>vashe bolnoy?</p>
-                  <button onClick={this.handleReset}>Reset</button>
+                return <div className="question">
+                  <p className="title">vashe bolnoy?</p>
+                  <button className="reset-btn" onClick={this.handleReset}>Покурить</button>
                 </div>
           }
-        return <div>
-                  <button onClick={this.handleIncrement}>+</button>
-                  <h2>{this.state.count}</h2>
-                  
-                  <button onClick={this.handleDecrement}>-</button>
+        return <div className="conteinerok">
+                  <div className="jojo">
+                    <button onClick={this.handleIncrement} className="increment">+</button>
+                    <button onClick={this.handleDecrement} className="decrement">-</button>
+                  </div>
+                  <h2 className="counter">{this.state.count}</h2>
                </div> 
       }
 }

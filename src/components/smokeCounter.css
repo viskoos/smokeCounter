@@ -1,0 +1,59 @@
+body {
+    width: 300x;
+}
+
+.increment {
+    position: absolute;
+    background: none;
+    left: 303%;
+    top: -217%;
+    height: 568px;
+    width: 110px;
+    border: none;
+    outline: none;
+    font-size: 42px;
+    opacity: 0.5;
+}
+
+.decrement {
+    position: absolute;
+    background: none;
+    left: -903%;
+    top: -217%;
+    height: 568px;
+    width: 150px;
+    border: none;
+    padding-left: 42px;
+    outline: none;
+    font-size: 42px;
+    opacity: 0.5;
+}
+
+.counter {
+    font-size: 35px;
+}
+
+.conteinerok {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
+
+.reset-btn {
+    margin-top: 50px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background: none;
+    font-size: 22px
+}
+
+.question {
+    margin-top: 216px;
+}
+
+.title {
+    margin: 0 auto;
+    width: 150px;
+}
