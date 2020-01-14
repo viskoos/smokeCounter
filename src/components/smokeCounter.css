@@ -31,11 +31,12 @@ body {
 
 .counter {
     font-size: 35px;
+    margin-top: 35px;
 }
 
 .conteinerok {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 46%;
 }
 
